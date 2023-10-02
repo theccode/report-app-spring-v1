@@ -1,0 +1,14 @@
+#  -- jdbc:postgresql://localhost:5432/report
+server:
+  port: 8888
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/report
+    username: reportuser
+    password: secret
+  servlet:
+    multipart:
+      maxFileSize: 2MB
+      maxRequestSize: 2MB
+
+
